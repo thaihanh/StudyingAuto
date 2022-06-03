@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user id="1">
+    <admin>true</admin>
+    <email>hanh@gmail.com</email>
+    <name>HanhHT4</name>
+    <roles>
+        <role>Admin</role>
+        <role>Mentor</role>
+        <role>Member</role>
+    </roles>
+</user>

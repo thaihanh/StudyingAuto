@@ -1,0 +1,57 @@
+[INFO  - 2022-05-30T13:50:42.200Z] GhostDriver - Main - running on port 58740
+[INFO  - 2022-05-30T13:50:42.826Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2022-05-30T13:50:42.826Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.customHeaders:  - {}
+[INFO  - 2022-05-30T13:50:42.826Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2022-05-30T13:50:42.826Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7f6ed260-e01f-11ec-8c6a-757a6a957ed5
+[ERROR - 2022-05-30T13:50:44.857Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Array.from(collection)')
+[ERROR - 2022-05-30T13:50:44.857Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - stack:
+  initializeDataAPI (https://demo.worksuite.biz/vendor/bootstrap/javascript/bootstrap-native.js:1609)
+  initCallback (https://demo.worksuite.biz/vendor/bootstrap/javascript/bootstrap-native.js:1614)
+  (anonymous function) (https://demo.worksuite.biz/vendor/bootstrap/javascript/bootstrap-native.js:1629)
+  (anonymous function) (https://demo.worksuite.biz/vendor/bootstrap/javascript/bootstrap-native.js:9)
+[ERROR - 2022-05-30T13:50:48.864Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.assign({},Ne,De)')
+[ERROR - 2022-05-30T13:50:48.864Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - stack:
+  (anonymous function) (https://demo.worksuite.biz/vendor/jquery/frappe-charts.min.iife.js:1)
+[ERROR - 2022-05-30T13:50:48.876Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - msg: TypeError: undefined is not an object (evaluating 'new frappe.Chart')
+[ERROR - 2022-05-30T13:50:48.876Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - stack:
+  global code (https://demo.worksuite.biz/account/dashboard:1434)
+[ERROR - 2022-05-30T13:50:48.878Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - msg: TypeError: undefined is not an object (evaluating 'new frappe.Chart')
+[ERROR - 2022-05-30T13:50:48.878Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - stack:
+  global code (https://demo.worksuite.biz/account/dashboard:1535)
+[ERROR - 2022-05-30T13:50:48.924Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - msg: ReferenceError: Can't find variable: SEARCH_KEYWORD
+[ERROR - 2022-05-30T13:50:48.924Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - stack:
+  global code (https://demo.worksuite.biz/account/dashboard:2872)
+[ERROR - 2022-05-30T13:50:49.264Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - msg: ReferenceError: Can't find variable: init
+[ERROR - 2022-05-30T13:50:49.264Z] Session [7f6ed260-e01f-11ec-8c6a-757a6a957ed5] - page.onError - stack:
+  (anonymous function) (https://demo.worksuite.biz/account/dashboard:2828)
+  dispatch (https://demo.worksuite.biz/vendor/jquery/jquery.min.js:2)
+  handle (https://demo.worksuite.biz/vendor/jquery/jquery.min.js:2)
+[INFO  - 2022-05-30T13:55:42.198Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:00:42.199Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:05:42.200Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:10:42.201Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:15:42.201Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:20:42.202Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:25:42.216Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:30:42.225Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:35:42.227Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:40:42.298Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:45:42.252Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:50:42.255Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T14:55:42.259Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:00:42.258Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:05:42.258Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:10:42.258Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:15:42.259Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:20:42.267Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:25:42.271Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:30:42.321Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:35:42.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:40:42.276Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:45:42.277Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:50:42.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T15:55:42.295Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T16:00:42.331Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T16:05:42.312Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T16:10:42.324Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2022-05-30T16:15:42.324Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

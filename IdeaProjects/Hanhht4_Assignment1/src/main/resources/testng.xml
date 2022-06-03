@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name ="Check Pass Fail">
+    <test name ="Test">
+        <parameter name="mark" value="1"></parameter>
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="Smoke"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+            <class name="exercise3.TestDataProvider">
+            </class>
+<!--            <class name="exercise4.TestNGGrouping">-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>

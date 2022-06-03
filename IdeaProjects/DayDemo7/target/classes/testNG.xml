@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="demo test" parallel="tests" thread-count="3">
+    <test name="Chrome">
+        <parameters>
+            <parameter name="browser" value="chrome"></parameter>
+        </parameters>
+        <classes>
+            <class name="Test1"></class>
+        </classes>
+    </test>
+    <test name="Firefox">
+        <parameters>
+            <parameter name="browser" value="firefox"></parameter>
+        </parameters>
+        <classes>
+            <class name="Test1"></class>
+        </classes>
+    </test>
+</suite>
